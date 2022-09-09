@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name" translatable="false">Projekat</string>
+    <string name="title_activity_login" translatable="false">LoginActivity</string>
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Password</string>
+    <string name="action_sign_in" translatable="false">Sign in or register</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="welcome" translatable="false">"Welcome !"</string>
+    <string name="invalid_username" translatable="false">Not a valid username</string>
+    <string name="invalid_password" translatable="false">Password must be >5 characters</string>
+    <string name="login_failed" translatable="false">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+
+    <string name="ticket_type">Ticket type</string>
+    <string name="priority">Priority</string>
+    <string name="estimation">Estimation</string>
+    <string name="logged_time">Logged time</string>
+    <string name="ticket_desc">Ticket desc.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="jira_system_for_raf_students">Jira system for Raf students</string>
+    <string name="enhancements">Enhancements</string>
+    <string name="bugs">Bugs</string>
+    <string name="log_out">Log out</string>
+    <string name="login">Login</string>
+    <string name="add_new_ticket">Add new ticket</string>
+    <string name="ticket_title">Ticket title</string>
+    <string name="ticket_description">Ticket description</string>
+    <string name="add">Add</string>
+    <string name="todo">ToDo</string>
+    <string name="inprogress">InProgress</string>
+    <string name="done">Done</string>
+    <string name="search">Search</string>
+
+
+    <string-array name="type">
+        <item>bug</item>
+        <item>enchantment</item>
+    </string-array>
+
+    <string-array name="priority">
+        <item>Low</item>
+        <item>Lowest</item>
+        <item>High</item>
+        <item>Highest</item>
+        <item>Medium</item>
+    </string-array>
+
+</resources>

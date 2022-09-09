@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/add_new_ticket"
+        android:textSize="30sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spiner"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Spinner
+        android:id="@+id/spiner2"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+
+        android:layout_marginLeft="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spiner"
+        app:layout_constraintStart_toEndOf="@+id/spiner"
+        app:layout_constraintTop_toTopOf="@+id/spiner" />
+
+    <EditText
+        android:id="@+id/naslovEt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/ticket_title"
+
+        android:inputType="textPersonName"
+
+        app:layout_constraintEnd_toEndOf="@+id/estEt"
+        app:layout_constraintStart_toStartOf="@+id/spiner"
+        app:layout_constraintTop_toBottomOf="@+id/spiner2" />
+
+    <EditText
+        android:id="@+id/opisEt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/ticket_description"
+        android:inputType="textCapSentences|textMultiLine"
+
+        android:maxLength="2000"
+        android:maxLines="4"
+        app:layout_constraintEnd_toEndOf="@+id/naslovEt"
+        app:layout_constraintStart_toStartOf="@+id/naslovEt"
+        app:layout_constraintTop_toBottomOf="@+id/naslovEt" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+
+        android:text="@string/add"
+
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toEndOf="@+id/opisEt"
+        app:layout_constraintStart_toStartOf="@+id/opisEt"
+        app:layout_constraintTop_toBottomOf="@+id/opisEt" />
+
+    <EditText
+        android:id="@+id/estEt"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:hint="Est."
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/spiner2"
+        app:layout_constraintStart_toEndOf="@+id/spiner2"
+        app:layout_constraintTop_toTopOf="@+id/spiner2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

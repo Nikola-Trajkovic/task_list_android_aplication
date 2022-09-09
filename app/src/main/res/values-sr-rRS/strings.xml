@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">Pretrazi</string>
+    <string name="done">Zavrseno</string>
+    <string name="inprogress">U toku</string>
+    <string name="todo">Uraditi</string>
+    <string name="add">Dodaj</string>
+    <string name="ticket_description">Opis tiketa</string>
+    <string name="ticket_title">Naziv tiketa</string>
+    <string name="add_new_ticket">Dodaj novi tiket</string>
+    <string name="login">Uloguj se</string>
+    <string name="log_out">Izloguj se</string>
+    <string name="bugs">Bube</string>
+    <string name="enhancements">Poboljsanje</string>
+    <string name="jira_system_for_raf_students">Jira sistem za studente Rafa</string>
+    <string name="password">Sifra</string>
+    <string name="username">Korisnicko ime</string>
+    <string name="ticket_desc">Opis tiketa</string>
+    <string name="logged_time">Vreme logovanja</string>
+    <string name="priority">Prioritet</string>
+    <string name="ticket_type">Vrsta tiketi</string>
+    <string name="estimation">Trajanje</string>
+</resources>
